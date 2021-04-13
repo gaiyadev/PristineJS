@@ -1,0 +1,57 @@
+.form-container {
+  width: 60%;
+  margin: auto;
+}
+
+#myForm {
+  margin-top: 34px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="email"], select {
+  width: 100%;
+  margin: 20px;
+  padding: 12px 15px;
+}
+
+.btn {
+  background: #1c94ff;
+  padding: 10px 16px;
+  border: none;
+  box-shadow: 2px 1px 1px #d3d3d3;
+  color: #fff;
+  outline: none;
+  font-size: 17px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 18px;
+}
+
+label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* Color the from error  */
+.pristine-error {
+  color: red;
+  display: table;
+}
+
+.has-success .form-control {
+  border-bottom: 2px solid #168b3f;
+}
+
+.has-danger .form-control {
+  border-bottom: 2px solid #dc1d34;
+}
+
+.form-group .text-help {
+  color: #dc1d34;
+}
+
+.inline-label label {
+  display: inline;
+}
